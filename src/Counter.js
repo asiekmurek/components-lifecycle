@@ -5,7 +5,7 @@ class Counter extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="counter">
                 {this.props.display}
             </div>
         )

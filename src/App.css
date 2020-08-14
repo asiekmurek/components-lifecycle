@@ -1,0 +1,22 @@
+.counterBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  font-size: 90pt;
+  font-family: sans-serif;
+  color: #333333;
+  font-weight: bold;
+  margin: 50px;
+ }
+ 
+ .plusBtn {
+  font-size: 36pt;
+  background-color: dimgrey;
+  font-family: sans-serif;
+  color: aliceblue;
+  border-radius: 5px;
+  width: 80px;
+ }

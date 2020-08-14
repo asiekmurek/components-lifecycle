@@ -20,10 +20,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <div className="counterBox">
+        <button className="plusBtn" onClick={this.increase}> + </button>
         <Counter display={this.state.count} />
-        <button onClick={this.increase}> + </button>
-      </>
+      </div>
     )
   }
 }
